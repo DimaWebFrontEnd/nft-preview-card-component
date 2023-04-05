@@ -1,2 +1,2 @@
 # nft-preview-card-component
-This is my secnd challenge from frontendmentor.io.
+This is my second challenge from frontendmentor.io.
