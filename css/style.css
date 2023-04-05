@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+img {
+   display: block;
+}
+
+body {
+   font-family: 'Outfit', sans-serif;
+   background-color: hsl(217, 54%, 11%);
+   min-width: 375px;
+   max-width: 1440px;
+   height: 120vh;
+   display: grid;
+   place-content: center;
+}
+
+
+.main__card {
+   background-color: hsl(216, 50%, 16%);
+   border-radius: 15px;
+   width: 355px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   box-shadow: 0px 20px 20px 0px hsl(217, 54%, 9%);
+   position: relative;
+}
+
+
+
+
+.main__equilibrium {
+   width: 305px;
+   height: 305px;
+   border-radius: 10px;
+   margin-top: 25px;
+}
+
+
+
+.main__view-bg {
+   background-color: hsl(178, 100%, 50%, 0.5);
+   border-radius: 10px;
+   width: 305px;
+   height: 305px;
+   
+   top: 25px;
+   left: 25px;
+   position: absolute;
+}
+
+.main__view {
+   position: absolute;
+   top: 42%;
+   left: 42%;
+}
+
+.main__view-bg {
+   display: none;
+}
+
+:is(.main__box:hover) .main__view-bg {
+   display: block;
+   cursor: pointer;
+}
+
+
+.main__sub {
+   font-size: 18px;
+   color: hsl(0, 0%, 100%);
+   width: 305px;
+   margin: 25px 0;
+   padding: 0;
+}
+
+.main__p {
+   font-size: 18px;
+   font-weight: 300;
+   color: hsl(215, 51%, 70%);
+   width: 305px;
+}
+
+.main__row {
+   display: flex;
+   justify-content: space-between;
+   
+   width: 305px;
+   border-bottom: 0.5px solid hsl(215, 32%, 27%);
+   padding: 30px 0 25px 0;
+}
+
+.row {
+   display: flex;
+   align-items: center;
+}
+
+h1, h2 {
+   font-size: 18px;
+   padding-left: 10px;
+}
+
+h1 {
+   color: hsl(178, 100%, 50%);
+}
+
+h2 {
+   color: hsl(215, 51%, 70%);
+}
+
+section {
+   display: flex;
+   align-items: center;
+   width: 305px;
+   padding: 20px 0 30px 0;
+}
+
+.hero {
+   width: 32px;
+   height: 32px;
+   border: 1px solid white;
+   border-radius: 50%;
+   margin-right: 20px;
+}
+
+.name {
+   color: white;
+}
+
+.size {
+   font-size: 15px;
+}
+
+h1:hover, .name:hover {
+   cursor: pointer;
+   color: hsl(178, 100%, 50%);
+}
+
+.attribution { 
+   font-size: 11px; 
+   text-align: center; 
+}
+
+.attribution a { 
+   color: hsl(228, 45%, 44%); 
+}
